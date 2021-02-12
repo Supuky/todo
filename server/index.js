@@ -15,7 +15,7 @@ app.use(cors());
 app.use('/lists', listsRoutes);
 
 // mongopassword
-const CONECTION_URL = "mongodb+srv://owl:todo123@cluster0.h4gij.mongodb.net/todolists?retryWrites=true&w=majority";
+const CONECTION_URL = "";
 
 // port
 const PORT = process.env.PORT || 8000;
